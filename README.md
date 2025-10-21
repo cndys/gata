@@ -10,13 +10,12 @@
 
 MobilityCorp provides short-term rentals for last-mile transport with bikes, scooters, cars, or vans in the European Union.
 
-In each of the 27 countries, we offer 5,000 bikes, 5,000 scooters, 200 cars, and 200 vans. Users rent these vehicles on our booking platform.
-[Add details: car reservations 7 days in advance, etc.
+In each of the 27 countries, we offer 5,000 bikes, 5,000 scooters, 200 cars, and 200 vans. Users rent these vehicles on our booking platform 7 days in advance
+for cars and vans and 30 minutes before the trip for scooters and bikes.
 
 All these means of transport run on electric motors, so we have technicians who maintain these vehicles and, in particular, change the batteries when they are worn out.
+Each vehicle sends metrics (gps and battery level) every 30 seconds.
 
-Each vehicle sends metrics 
-every 30 seconds [+ or - ?]
 
 ### Chalenges
 
@@ -26,9 +25,27 @@ every 30 seconds [+ or - ?]
 
 ## Functional requirements
 
-3/4 
+1. User Management & Authentication
+2. Booking & Reservation Management
+3. Vehicle Management
+4. Payment Processing
+5. Return & Verification
+6. Technician Operations
+7. AI-Powered Services
+8. Reporting & Analytics
+
+Details....
 
 ## Non functionnal requirements
+
+2. Availability & Reliability
+3. Scalability
+4. Compliance & Legal
+
+5. AI & Machine Learning
+1. Performance
+5. Usability
+4. Security
 
 ## ADR
 
