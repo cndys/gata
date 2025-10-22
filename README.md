@@ -38,10 +38,10 @@ Details....
 
 ## Non functionnal requirements
 
-2. Availability & Reliability
-3. Scalability
-4. Compliance & Legal
-
+1. Availability & Reliability
+2. Scalability
+3. Compliance & Legal
+4. agility (maintanability, testability, deployability)
 5. AI & Machine Learning
 1. Performance
 5. Usability
