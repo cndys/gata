@@ -83,6 +83,6 @@ We have 8 ADRs :
 4. [Computer Vision for Return Verification](ADRs/ADR-004-computer-vision-for-return-verification.md)
 5. [Mobile-First Architecture](ADRs/ADR-005-mobile-first-architecture.md)
 6. [PostgreSQL for Transactional and Operational Data](ADRs/ADR-006-PostgreSQL.md)
-7. [ADR-007: Object Storage (S3) for Media Files and Data Lake Storage](ADRs/ADR-007-object-Storage.md)
-8. [ADR-008: Batch Processing over Real-time Analytics for Reporting](ADRs/ADR-008-Batch-Processing.md)
+7. [Object Storage (S3) for Media Files and Data Lake Storage](ADRs/ADR-007-object-Storage.md)
+8. [Batch Processing over Real-time Analytics for Reporting](ADRs/ADR-008-Batch-Processing.md)
 
