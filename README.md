@@ -44,10 +44,31 @@ We thought about these non functionnal requirements  :
 
 1. **High Availability and fault tolerance**,
 2. **Scalability and Elasticity** : elasticity is the most important at short terme to use less resources at off-peak time,
-5. **Compliance and Legal** : which is for us, the need of testability and maintainability,
+5. **Compliance and Legal** : which is for us, the need of testability and maintainability and is the most important point because of need to comply with legal evolution in EU about cars/bikes/scooter sharing and IT,
 9. **AI & Machine Learning** : need for model accuracy.
 
-To 
+Then we choose the main characteristics of our system :
+![characteristics choice](architecture-characteristics-worksheet.png)
+
+## Architecture choice
+The main non functionnal requirements lead us to :
+![architecture choice](architecture-styles-worksheet-gata.png)
+
+We could choose service based or even microkernel if MobilityCorp just started with one or two countries
+or if it was at a POC level, but we need elasticity to cut cost on cloud providers so we choose microservices
+with a bit of event driven on some part of our system. Microservices helps us in the need for agility
+to quickly change AI providers.
+
+## Design
+
+The context of our system is :
+![context diagramme](gata-C1 - context.jpg)
+We rely on nine softwares third party softwares,
+but most of these are stable systems working for years.
+
+
+![container diagramme](gata-C2 - container.jpg)
+
 
 ## ADR
 
