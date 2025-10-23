@@ -48,11 +48,11 @@ We thought about these non functionnal requirements  :
 9. **AI & Machine Learning** : need for model accuracy.
 
 Then we choose the main characteristics of our system :
-![characteristics choice](architecture-characteristics-worksheet.png)
+![characteristics choice](resources/architecture-characteristics-worksheet.png)
 
 ## Architecture choice
 The main non functionnal requirements lead us to :
-![architecture choice](architecture-styles-worksheet-gata.png)
+![architecture choice](resources/architecture-styles-worksheet-gata.png)
 
 We could choose service based or even microkernel if MobilityCorp just started with one or two countries
 or if it was at a POC level, but we need elasticity to cut cost on cloud providers so we choose microservices
@@ -61,15 +61,24 @@ to quickly change AI providers.
 
 ## Design
 
-The context of our system is :
-![context diagramme](gata-C1 - context.jpg)
+### C4 - C1 context 
+
+![context diagramme](resources/gata-C1-context.jpg)
+
 We rely on nine softwares third party softwares,
 but most of these are stable systems working for years.
 
+### C4 - C2 containers
 
-![container diagramme](gata-C2 - container.jpg)
-
+![container diagramme](resources/gata-C2-container.jpg)
 
 ## ADR
+
+We have 5 ADRs :
+1.
+2. 
+3. 
+4.
+5.
 
 
