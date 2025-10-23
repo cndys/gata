@@ -70,15 +70,19 @@ but most of these are stable systems working for years.
 
 ### C4 - C2 containers
 
+We organized an event storming to have a shared overview of our business flows and designed this diagram :
+
 ![container diagramme](resources/gata-C2-container.jpg)
 
 ## ADR
 
-We have 5 ADRs :
-1.
-2. 
-3. 
-4.
-5.
-
+We have 8 ADRs :
+1. [Microservices Architecture](ADRs/ADR-001-microservices-architecture.md)
+2. [Event-Driven Architecture](ADRs/ADR-002-event-driven-architecture.md)
+3. [AI/ML Strategy](ADRs/ADR-003-AI-ML-strategy.md)
+4. [Computer Vision for Return Verification](ADRs/ADR-004-computer-vision-for-return-verification.md)
+5. [Mobile-First Architecture](ADRs/ADR-005-mobile-first-architecture.md)
+6. [PostgreSQL for Transactional and Operational Data](ADRs/ADR-006-PostgreSQL.md)
+7. [ADR-007: Object Storage (S3) for Media Files and Data Lake Storage](ADRs/ADR-007-object-Storage.md)
+8. [ADR-008: Batch Processing over Real-time Analytics for Reporting](ADRs/ADR-008-Batch-Processing.md)
 
