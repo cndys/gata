@@ -2,9 +2,10 @@
 
 ## The Gata Team
 
- - David LOIRET
- - Jimmy ROGALA
- - Ulysse HUMBERT
+ - [Benoit CHASSIGNOL](https://www.linkedin.com/in/benoit-chassignol-844716a1/)
+ - [David LOIRET](https://www.linkedin.com/in/david-loiret/)
+ - [Jimmy ROGALA](https://www.linkedin.com/in/jimmy-rogala/)
+ - [Ulysse HUMBERT](https://www.linkedin.com/in/ulyssehumbertgonzalez/)
 
 ## Introduction
 
@@ -16,8 +17,9 @@ for cars and vans and 30 minutes before the trip for scooters and bikes.
 All these means of transport run on electric motors, so we have technicians who maintain these vehicles and, in particular, change the batteries when they are worn out.
 Each vehicle sends metrics (gps and battery level) every 30 seconds.
 
+Details in [business goals page](https://github.com/cndys/gata/blob/main/1_business_goals.md)
 
-### Chalenges
+### Main Chalenges
 
 * right vehicles aren’t in the right places,
 * when ppl will want to use the vehicles ?
@@ -34,18 +36,19 @@ Each vehicle sends metrics (gps and battery level) every 30 seconds.
 7. AI-Powered Services
 8. Reporting & Analytics
 
-Details....
+Details in [specific page](https://github.com/cndys/gata/blob/main/2_business_requirements.md)
 
 ## Non functionnal requirements
 
-1. Compliance & Legal (agility)
-1. Availability & Reliability
-2. Scalability
-4. agility (maintanability, testability, deployability)
-5. AI & Machine Learning
-1. Performance
-5. Usability
-4. Security
+We thought about these non functionnal requirements  :
+
+1. **High Availability and fault tolerance**,
+2. **Scalability and Elasticity** : elasticity is the most important at short terme to use less resources at off-peak time,
+5. **Compliance and Legal** : which is for us, the need of testability and maintainability,
+9. **AI & Machine Learning** : need for model accuracy.
+
+To 
 
 ## ADR
+
 
